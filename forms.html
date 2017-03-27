@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+   <header>
+       <h2><a href="index.html">Return to tables</a></h2>
+       <div>
+      <h1>Соціологічне дослідження: &quot;Соціальні мережі - За і Проти&quot;!!!</h1>
+    </div>
+   </header>
+    <p>Вітаю,<br>
+    витратьте, будь ласка, кілька хвилин свого часу на заповнення наступної анкети:</p>
+    <div>
+        <form method="POST" action="https://formspree.io/opokhmurska@gmail.com">
+                <h3>
+                    1.Ваше ставлення до соціальних мереж (ВКонтакте, Google+, Facebook,<br>
+                    Twitter, Connect, Одноклассники, Мой Мир, та інших)?</h3><br>
+            <label>
+	        	<input type="radio"  name="social" value="rad1"/>
+	        	<span>Позитивне</span>          
+	        </label>
+	        <label>
+		        <input type="radio" name="social" value="rad2"/>
+		      <span>Негативне</span>          
+	        </label>
+			<label>
+	        	<input type="radio" name="social" value="rad3"/>
+		        <span>Нейтральне</span>          
+	        </label>
+			<label>
+		<input type="radio" name="social" value="textova"/>
+		<span>Свій варіант</span>        
+		 <input type="text" name="social" maxlength="100" value="" placeHolder="Введіть відповідь" />
+	        </label>
+	        <h3>2. В яких соціальних мережах Ви зареєстровані або були зареєстровані<br>
+	        (виберіть декілька відповідей)?</h3><br>
+	        <label>
+	            <input type="checkbox" name="">ВКонтакте
+	            <input type="checkbox" name="">Facebook
+	            <input type="checkbox" name="">Connect
+	           <input type="checkbox" name="">Одноклассники
+	            <input type="checkbox" name="">Не зареєстрований
+	            <input type="checkbox" name="social">Свій варіант<input type="text" name="social" maxlength="100" value="" placeHolder="Введіть відповідь" />
+	        </label>
+	        <h3>3. Чи користуєтеся Ви послугами електронної пошти?</h3>
+	        <label>
+	        	<input type="radio"  name="social" value="rad1"/>
+	        	<span>Так</span>          
+	        </label>
+	        <label>
+	        	<input type="radio"  name="social" value="rad1"/>
+	        	<span>Ні</span>          
+	        </label>
+	        <label>
+	        	<input type="radio"  name="social" value="rad1"/>
+	        	<span>Майже не користуюсь</span>          
+	        </label><br><br>
+	        <label>Ваше ім'я:
+              <input type="text" name="name" required>
+            </label>
+      <br>
+      <label for="email">Ваш email:
+      <input type="email" name="email" id="email" required>
+      </label>
+      <br>
+      <br>
+   <input type="submit">
+   <input type="reset">
+        </form>
+    </div>
+</body>
+</html>
